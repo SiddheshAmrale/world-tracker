@@ -1,8 +1,8 @@
-<div align="center">
+﻿<div align="center">
 
-# 🌐 Global Tracker
+# 🌐 World Tracker
 
-[![CI](https://github.com/SiddheshAmrale/global-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SiddheshAmrale/global-tracker/actions/workflows/ci.yml)
+[![CI](https://github.com/SiddheshAmrale/world-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SiddheshAmrale/world-tracker/actions/workflows/ci.yml)
 
 ### The whole planet, live, in your browser.
 
@@ -14,9 +14,9 @@ Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic,
 
 ---
 
-## 🚀 What's new in Global Tracker
+## 🚀 What's new in World Tracker
 
-Global Tracker is a performance-focused fork of
+World Tracker is a performance-focused fork of
 [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) by Bilawal Sidhu
 and Sameh Khamis (MIT). On top of the original feature set it rebuilds the hot
 paths of the live view so the globe stays smooth with hundreds of contacts:
@@ -47,9 +47,9 @@ varies run to run).
 
 ## 🌍 Why This Exists
 
-Global Tracker brings public signals into one explorable globe. Track the world live. Talk to it. Break it. Extend it.
+World Tracker brings public signals into one explorable globe. Track the world live. Talk to it. Break it. Extend it.
 
-Flight transponders, ship beacons, orbital elements, seismographs, and public cameras already tell us a lot about the world. Global Tracker puts them in the same place, so you can move between a global picture and an individual aircraft, ship, or street. It runs locally in your browser, with source code you can inspect and extend.
+Flight transponders, ship beacons, orbital elements, seismographs, and public cameras already tell us a lot about the world. World Tracker puts them in the same place, so you can move between a global picture and an individual aircraft, ship, or street. It runs locally in your browser, with source code you can inspect and extend.
 
 > Half the magic is that it looks like a forbidden cockpit. The other half is that every line of code is inspectable.
 
@@ -105,7 +105,7 @@ app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
 ### Path 1 — One click, no terminal
 
 1. Install or update [Pinokio](https://desktop.pinokio.co/) to **8.2 or later**.
-2. In Pinokio choose **Download from URL** and paste `https://github.com/SiddheshAmrale/global-tracker.git`.
+2. In Pinokio choose **Download from URL** and paste `https://github.com/SiddheshAmrale/world-tracker.git`.
 3. Click **Install**, then **Start**.
 
 Available on **Windows, macOS, and Linux**. The Pinokio maintainer reports
@@ -122,8 +122,8 @@ Use **Node.js 24.x (24.14.0 or later) or 26.x**. The setup doctor warns about
 Node 25, which is end-of-life.
 
 ```bash
-git clone https://github.com/SiddheshAmrale/global-tracker.git
-cd global-tracker
+git clone https://github.com/SiddheshAmrale/world-tracker.git
+cd world-tracker
 npm ci
 npm run doctor
 npm run dev
@@ -284,7 +284,7 @@ _Ask for radio near anywhere and the globe starts broadcasting — every station
 
 ---
 
-**💬 Or ask from Claude and Codex.** Global Tracker is also an MCP server: ask Claude Desktop, Codex or ChatGPT desktop to show a place, and the live globe opens right in the conversation. Setup takes a minute — see [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
+**💬 Or ask from Claude and Codex.** World Tracker is also an MCP server: ask Claude Desktop, Codex or ChatGPT desktop to show a place, and the live globe opens right in the conversation. Setup takes a minute — see [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
 ## 🛰️ What's on the Globe
 
@@ -542,7 +542,7 @@ a separately reviewed authentication proxy if remote access is required.
 
 ## 📋 Responsible & Open
 
-Global Tracker runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. It has the visual grammar of a classified ops room, built entirely from open signals and inspectable code.
+World Tracker runs on **public data, clear sources, and local-first execution.** No secrets, no private datasets, no mystery scraping — anything involving a private key is brokered server-side. It has the visual grammar of a classified ops room, built entirely from open signals and inspectable code.
 
 **The line.** This project models **events, assets, infrastructure, and systems** — aircraft, vessels, satellites, fires, cameras, cities. It does not build features for named-person search, face recognition, or tracking individuals, and pull requests that cross that line won't be merged. People are not a query type here.
 
@@ -552,12 +552,12 @@ Global Tracker runs on **public data, clear sources, and local-first execution.*
 
 **Maintainer:** [Siddhesh Amrale](https://github.com/SiddheshAmrale).
 
-**Credits:** Global Tracker is built on [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) by [Bilawal Sidhu](https://github.com/bilawalsidhu) and [Sameh Khamis](https://github.com/samehkhamis), released under the MIT License. The original copyright notice is kept in [LICENSE](LICENSE).
+**Credits:** World Tracker is built on [God's Eye View](https://github.com/bilawalsidhu/gods-eye-view) by [Bilawal Sidhu](https://github.com/bilawalsidhu) and [Sameh Khamis](https://github.com/samehkhamis), released under the MIT License. The original copyright notice is kept in [LICENSE](LICENSE).
 
 <sub>Media note: the capture GIFs on this page show Google Photorealistic 3D Tiles and live data layers, used promotionally with in-frame attribution; they aren't licensed for standalone reuse. See [media provenance and permissions](docs/media/README.md); full source terms in [DATA_SOURCES.md](DATA_SOURCES.md).</sub>
 
 > [!IMPORTANT]
-> Global Tracker is an exploratory visualization of public and third-party data.
+> World Tracker is an exploratory visualization of public and third-party data.
 > Data may be delayed, incomplete, modeled, inferred, or wrong. Do not use it
 > for flight or maritime navigation, emergency response, medical or health
 > decisions, investment decisions, or other safety-critical or operational
@@ -567,6 +567,6 @@ Global Tracker runs on **public data, clear sources, and local-first execution.*
 
 <div align="center">
 
-**🌐 Global Tracker. The whole planet, live.**
+**🌐 World Tracker. The whole planet, live.**
 
 </div>
